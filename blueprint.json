@@ -15,12 +15,48 @@
         "level": "alpha",
         "patch": 0
       }
-    }
+    },
+    "software": {
+      "display": {
+        "title": "OpenProject"
+      }
+    },
+    "timestamp": "2018-07-09T07:06:38+10:00"
   },
   "software": {
     "base": {
+      "name": "openproject",
+      "framework": "rails5",
       "deployment_type": "web",
-      "http_protocol": "https_and_http"
+      "http_protocol": "https_and_http",
+      "memory": {
+        "required": 384,
+        "recommended": 512
+      }
+    },
+    "installed_packages": [
+      {
+        "name": "openproject-ce",
+        "source_url": "https://github.com/opf/openproject-ce.git",
+        "destination": "../",
+        "extraction_command": "git",
+        "path_to_extracted": "openproject-ce"
+      }
+    ],
+    "framework_specific": {
+      "rake_tasks": [
+        {
+          "action": "db:migrate",
+          "always_run": true
+        },
+        {
+          "action": "db:seed"
+        },
+        {
+          "action": "assets:precompile",
+          "always_run": true
+        }
+      ]
     }
   }
 }
