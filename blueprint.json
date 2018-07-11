@@ -21,7 +21,7 @@
         "title": "OpenProject"
       }
     },
-    "timestamp": "2018-07-11T16:13:12+10:00"
+    "timestamp": "2018-07-11T16:26:18+10:00"
   },
   "software": {
     "base": {
@@ -54,21 +54,6 @@
         "path": "/home/app",
         "recursive": true
       }
-    ],
-    "framework_specific": {
-      "rake_tasks": [
-        {
-          "action": "db:migrate",
-          "always_run": true
-        },
-        {
-          "action": "db:seed"
-        },
-        {
-          "action": "assets:precompile",
-          "always_run": true
-        }
-      ]
-    }
+    ]
   }
 }
