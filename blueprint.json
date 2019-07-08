@@ -21,7 +21,7 @@
         "title": "OpenProject"
       }
     },
-    "timestamp": "2019-07-08T15:21:35+10:00"
+    "timestamp": "2019-07-08T15:39:06+10:00"
   },
   "software": {
     "base": {
@@ -38,7 +38,7 @@
     "scripts": {
       "install": {
         "language": "sh",
-        "content": "#!/bin/sh \r\ncat /home/app/Gemfile\r\ncat /home/app/Gemfile.lock\r\ngem install bundler -v '<2' \r\n\r\n"
+        "content": "#!/bin/sh \r\ncat /home/app/Gemfile\r\ncat /home/app/Gemfile.lock\r\ngem install bundler \r\n\r\n"
       }
     },
     "system_packages": [
