@@ -21,7 +21,7 @@
         "title": "OpenProject"
       }
     },
-    "timestamp": "2019-07-08T12:38:29+10:00"
+    "timestamp": "2019-07-08T14:43:13+10:00"
   },
   "software": {
     "base": {
@@ -29,7 +29,7 @@
       "framework": "rails5",
       "deployment_type": "web",
       "http_protocol": "https_and_http",
-      "framework_port_override": 3000,
+      "framework_port_override": 8000,
       "memory": {
         "required": 384,
         "recommended": 512
@@ -74,7 +74,8 @@
         "name": "openproject-ce",
         "download_type": "git",
         "source_url": "https://github.com/opf/openproject-ce.git",
-        "destination": "/home/app"
+        "destination": "/home/app/",
+        "path_to_extracted": "openproject-ce"
       }
     ],
     "service_configurations": [
