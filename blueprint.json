@@ -21,12 +21,12 @@
         "title": "OpenProject"
       }
     },
-    "timestamp": "2019-07-08T12:30:24+10:00"
+    "timestamp": "2019-07-08T12:38:29+10:00"
   },
   "software": {
     "base": {
       "name": "openproject",
-      "framework": "base_c",
+      "framework": "rails5",
       "deployment_type": "web",
       "http_protocol": "https_and_http",
       "framework_port_override": 3000,
