@@ -21,7 +21,7 @@
         "title": "OpenProject"
       }
     },
-    "timestamp": "2019-07-08T14:59:36+10:00"
+    "timestamp": "2019-07-08T15:07:35+10:00"
   },
   "software": {
     "base": {
@@ -38,7 +38,7 @@
     "scripts": {
       "install": {
         "language": "sh",
-        "content": "#!/bin/sh\r\ngem install bundler -v '1.17.3' "
+        "content": "#!/bin/sh\r\ngem install bundler -v '<2' "
       }
     },
     "system_packages": [
