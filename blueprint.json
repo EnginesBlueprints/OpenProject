@@ -21,7 +21,7 @@
         "title": "OpenProject"
       }
     },
-    "timestamp": "2019-07-08T15:17:40+10:00"
+    "timestamp": "2019-07-08T15:20:08+10:00"
   },
   "software": {
     "base": {
@@ -72,11 +72,11 @@
     ],
     "installed_packages": [
       {
-        "name": "openproject-ce",
+        "name": "openproject",
         "download_type": "git",
-        "source_url": "https://github.com/opf/openproject-ce.git",
+        "source_url": "https://github.com/opf/openproject",
         "destination": "/home/app/",
-        "path_to_extracted": "openproject-ce"
+        "path_to_extracted": "openproject"
       }
     ],
     "service_configurations": [
