@@ -21,7 +21,7 @@
         "title": "OpenProject"
       }
     },
-    "timestamp": "2019-07-08T14:43:13+10:00"
+    "timestamp": "2019-07-08T14:46:52+10:00"
   },
   "software": {
     "base": {
@@ -111,12 +111,6 @@
         "path": "config/configuration.yml",
         "language": "yaml",
         "content": "production:                          #main level\r\n  email_delivery_method: :smtp       #settings for the production environment\r\n  smtp_address: smtp\r\n  smtp_port: 25\r\n  smtp_domain: _Engines_System(default_domain)\r\n  smtp_user_name: \r\n  smtp_password:\r\n  smtp_enable_starttls_auto: false\r\n  smtp_authentication: none\r\n  \r\nscm:\r\n  git:\r\n    manages: /home/fs/git\r\n"
-      }
-    ],
-    "file_write_permissions": [
-      {
-        "path": "/home/app",
-        "recursive": true
       }
     ]
   }
